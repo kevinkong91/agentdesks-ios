@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var sortButton: UIBarButtonItem!
     @IBOutlet var propertyCollectionView: PropertyCollectionView!
 
     override func viewDidLoad() {

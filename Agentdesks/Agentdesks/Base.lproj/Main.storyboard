@@ -54,6 +54,7 @@
                     </view>
                     <connections>
                         <outlet property="propertyCollectionView" destination="SeS-GE-tKI" id="xwt-wN-JT8"/>
+                        <outlet property="sortButton" destination="kS1-b5-G7l" id="EvG-uP-e9G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
