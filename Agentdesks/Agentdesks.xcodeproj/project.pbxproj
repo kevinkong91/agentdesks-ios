@@ -15,9 +15,9 @@
 		F3934F87209E42FF00039BEE /* AgentdesksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934F86209E42FF00039BEE /* AgentdesksTests.swift */; };
 		F3934F92209E42FF00039BEE /* AgentdesksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934F91209E42FF00039BEE /* AgentdesksUITests.swift */; };
 		F3934FA0209E453D00039BEE /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934F9F209E453D00039BEE /* Property.swift */; };
-		F3934FA2209E45EF00039BEE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934FA1209E45EF00039BEE /* ViewModel.swift */; };
 		F3934FA5209E468700039BEE /* PropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3934FA4209E468700039BEE /* PropertyCell.xib */; };
 		F3934FA7209E49A900039BEE /* PropertyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934FA6209E49A900039BEE /* PropertyCell.swift */; };
+		F3934FA9209E4CE900039BEE /* PropertyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934FA8209E4CE900039BEE /* PropertyCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,9 @@
 		F3934F91209E42FF00039BEE /* AgentdesksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentdesksUITests.swift; sourceTree = "<group>"; };
 		F3934F93209E42FF00039BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3934F9F209E453D00039BEE /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
-		F3934FA1209E45EF00039BEE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		F3934FA4209E468700039BEE /* PropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyCell.xib; sourceTree = "<group>"; };
 		F3934FA6209E49A900039BEE /* PropertyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCell.swift; sourceTree = "<group>"; };
+		F3934FA8209E4CE900039BEE /* PropertyCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +107,10 @@
 			children = (
 				F3934F71209E42FD00039BEE /* AppDelegate.swift */,
 				F3934F73209E42FD00039BEE /* ViewController.swift */,
+				F3934FA8209E4CE900039BEE /* PropertyCollectionView.swift */,
 				F3934FA4209E468700039BEE /* PropertyCell.xib */,
 				F3934FA6209E49A900039BEE /* PropertyCell.swift */,
-				F3934FA3209E461B00039BEE /* Data */,
+				F3934F9F209E453D00039BEE /* Property.swift */,
 				F3934F75209E42FD00039BEE /* Main.storyboard */,
 				F3934F78209E42FE00039BEE /* Assets.xcassets */,
 				F3934F7A209E42FE00039BEE /* LaunchScreen.storyboard */,
@@ -134,15 +135,6 @@
 				F3934F93209E42FF00039BEE /* Info.plist */,
 			);
 			path = AgentdesksUITests;
-			sourceTree = "<group>";
-		};
-		F3934FA3209E461B00039BEE /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				F3934F9F209E453D00039BEE /* Property.swift */,
-				F3934FA1209E45EF00039BEE /* ViewModel.swift */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +272,7 @@
 				F3934FA7209E49A900039BEE /* PropertyCell.swift in Sources */,
 				F3934FA0209E453D00039BEE /* Property.swift in Sources */,
 				F3934F74209E42FD00039BEE /* ViewController.swift in Sources */,
-				F3934FA2209E45EF00039BEE /* ViewModel.swift in Sources */,
+				F3934FA9209E4CE900039BEE /* PropertyCollectionView.swift in Sources */,
 				F3934F72209E42FD00039BEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var propertyCollectionView: UICollectionView!
+    @IBOutlet var propertyCollectionView: PropertyCollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,8 +18,9 @@ class ViewController: UIViewController {
     }
 
     func setupPropertyCollectionView() {
-        propertyCollectionView = UICollectionView()
+        let frame = CGRect.zero
+        let properties = []
+        propertyCollectionView = PropertyCollectionView(frame: frame, properties: properties)
         
     }
 }
-
