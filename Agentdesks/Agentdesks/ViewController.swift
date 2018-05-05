@@ -9,12 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var propertyCollectionView: UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupPropertyCollectionView()
     }
 
-    
+    func setupPropertyCollectionView() {
+        propertyCollectionView = UICollectionView()
+        
+    }
 }
 

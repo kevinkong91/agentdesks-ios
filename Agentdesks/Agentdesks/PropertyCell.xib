@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="1Ea-Jd-q0A" customClass="PropertyCell" customModule="Agentdesks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="256"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="256"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GxM-Ir-SV2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="256"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="UdM-G7-K9D">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="179"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YHL-Bh-XYx">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="krL-wc-C9s">
+                                <rect key="frame" x="0.0" y="179" width="414" height="77"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Kkr-2D-x5Y">
+                                        <rect key="frame" x="0.0" y="12.5" width="44.5" height="52"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfG-3N-YGL" userLabel="PriceLabel">
+                                                <rect key="frame" x="0.0" y="0.0" width="44.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRl-YG-Og9" userLabel="BedBathLabel">
+                                                <rect key="frame" x="0.0" y="20.5" width="44.5" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTa-ub-rNr" userLabel="SizeLabel">
+                                                <rect key="frame" x="0.0" y="37.5" width="44.5" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDC-DV-Llq" userLabel="DateLabel">
+                                        <rect key="frame" x="372" y="28.5" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="krL-wc-C9s" firstAttribute="height" secondItem="GxM-Ir-SV2" secondAttribute="height" multiplier="0.3" id="BCE-VR-ogc"/>
+                            <constraint firstItem="UdM-G7-K9D" firstAttribute="top" secondItem="GxM-Ir-SV2" secondAttribute="top" id="Drt-Ba-puT"/>
+                            <constraint firstItem="UdM-G7-K9D" firstAttribute="height" secondItem="GxM-Ir-SV2" secondAttribute="height" multiplier="0.7" id="EqJ-6H-nls"/>
+                            <constraint firstItem="krL-wc-C9s" firstAttribute="width" secondItem="GxM-Ir-SV2" secondAttribute="width" id="V8Z-hH-ZEo"/>
+                            <constraint firstAttribute="bottom" secondItem="krL-wc-C9s" secondAttribute="bottom" id="k3f-G7-q95"/>
+                            <constraint firstItem="UdM-G7-K9D" firstAttribute="width" secondItem="GxM-Ir-SV2" secondAttribute="width" id="o0r-rP-o39"/>
+                            <constraint firstItem="UdM-G7-K9D" firstAttribute="leading" secondItem="GxM-Ir-SV2" secondAttribute="leading" id="pEd-tj-wFm"/>
+                            <constraint firstItem="krL-wc-C9s" firstAttribute="leading" secondItem="UdM-G7-K9D" secondAttribute="leading" id="wTE-89-vO2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="GxM-Ir-SV2" firstAttribute="leading" secondItem="1Ea-Jd-q0A" secondAttribute="leading" id="FnJ-cT-hud"/>
+                <constraint firstAttribute="trailing" secondItem="GxM-Ir-SV2" secondAttribute="trailing" id="NMj-8W-U5u"/>
+                <constraint firstItem="GxM-Ir-SV2" firstAttribute="top" secondItem="1Ea-Jd-q0A" secondAttribute="top" id="gWJ-3x-hou"/>
+                <constraint firstAttribute="bottom" secondItem="GxM-Ir-SV2" secondAttribute="bottom" id="huc-Jv-xDa"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="3dE-hj-lfT"/>
+            <size key="customSize" width="414" height="256"/>
+            <connections>
+                <outlet property="backgroundView" destination="GxM-Ir-SV2" id="nRq-Jd-9PW"/>
+                <outlet property="bedBathLabel" destination="bRl-YG-Og9" id="3dX-n7-1AQ"/>
+                <outlet property="dateLabel" destination="gDC-DV-Llq" id="jv0-S5-n0s"/>
+                <outlet property="priceLabel" destination="kfG-3N-YGL" id="OSk-GI-FtW"/>
+                <outlet property="sizeLabel" destination="HTa-ub-rNr" id="FVo-ja-f4w"/>
+            </connections>
+            <point key="canvasLocation" x="110" y="-12"/>
+        </collectionViewCell>
+    </objects>
+</document>
