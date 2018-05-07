@@ -9,10 +9,10 @@
 import Foundation
 
 struct Property {
-    let photos: [URL]
+    let photos: [String]
     let price: Double
     let beds: Int
     let baths: Float
-    let size: Float
+    let size: Int
     let dateAdded: Date
 }

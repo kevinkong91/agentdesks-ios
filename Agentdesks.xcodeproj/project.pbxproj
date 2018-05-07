@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F32C10CA209F88DD00F7AC0A /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32C10C9209F88DD00F7AC0A /* Numbers.swift */; };
+		F32C10CC209F9FA100F7AC0A /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32C10CB209F9FA100F7AC0A /* PhotoCell.swift */; };
+		F32C10D0209FA3CB00F7AC0A /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32C10CF209FA3CB00F7AC0A /* Cells.swift */; };
 		F3934F72209E42FD00039BEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934F71209E42FD00039BEE /* AppDelegate.swift */; };
 		F3934F74209E42FD00039BEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934F73209E42FD00039BEE /* ViewController.swift */; };
 		F3934F77209E42FD00039BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3934F75209E42FD00039BEE /* Main.storyboard */; };
@@ -15,9 +18,11 @@
 		F3934F87209E42FF00039BEE /* AgentdesksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934F86209E42FF00039BEE /* AgentdesksTests.swift */; };
 		F3934F92209E42FF00039BEE /* AgentdesksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934F91209E42FF00039BEE /* AgentdesksUITests.swift */; };
 		F3934FA0209E453D00039BEE /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934F9F209E453D00039BEE /* Property.swift */; };
-		F3934FA5209E468700039BEE /* PropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3934FA4209E468700039BEE /* PropertyCell.xib */; };
 		F3934FA7209E49A900039BEE /* PropertyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934FA6209E49A900039BEE /* PropertyCell.swift */; };
-		F3934FA9209E4CE900039BEE /* PropertyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934FA8209E4CE900039BEE /* PropertyCollectionView.swift */; };
+		F3934FAB209F7DA000039BEE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3934FAA209F7DA000039BEE /* ViewModel.swift */; };
+		F397BD95209FB42300B0DBAC /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397BD94209FB42300B0DBAC /* Dates.swift */; };
+		F397BD98209FB9C400B0DBAC /* SortCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397BD97209FB9C400B0DBAC /* SortCategory.swift */; };
+		F397BD9B209FC24600B0DBAC /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397BD9A209FC24600B0DBAC /* Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F32C10C9209F88DD00F7AC0A /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		F32C10CB209F9FA100F7AC0A /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		F32C10CF209FA3CB00F7AC0A /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 		F3934F6E209E42FD00039BEE /* Agentdesks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agentdesks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3934F71209E42FD00039BEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3934F73209E42FD00039BEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,9 +60,11 @@
 		F3934F91209E42FF00039BEE /* AgentdesksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentdesksUITests.swift; sourceTree = "<group>"; };
 		F3934F93209E42FF00039BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3934F9F209E453D00039BEE /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
-		F3934FA4209E468700039BEE /* PropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyCell.xib; sourceTree = "<group>"; };
 		F3934FA6209E49A900039BEE /* PropertyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCell.swift; sourceTree = "<group>"; };
-		F3934FA8209E4CE900039BEE /* PropertyCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCollectionView.swift; sourceTree = "<group>"; };
+		F3934FAA209F7DA000039BEE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F397BD94209FB42300B0DBAC /* Dates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		F397BD97209FB9C400B0DBAC /* SortCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortCategory.swift; sourceTree = "<group>"; };
+		F397BD9A209FC24600B0DBAC /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +117,10 @@
 			children = (
 				F3934F71209E42FD00039BEE /* AppDelegate.swift */,
 				F3934F73209E42FD00039BEE /* ViewController.swift */,
-				F3934FA8209E4CE900039BEE /* PropertyCollectionView.swift */,
-				F3934FA4209E468700039BEE /* PropertyCell.xib */,
 				F3934FA6209E49A900039BEE /* PropertyCell.swift */,
-				F3934F9F209E453D00039BEE /* Property.swift */,
+				F32C10CB209F9FA100F7AC0A /* PhotoCell.swift */,
+				F397BD99209FC21500B0DBAC /* Models */,
+				F397BD96209FB56D00B0DBAC /* Extensions */,
 				F3934F75209E42FD00039BEE /* Main.storyboard */,
 				F3934F78209E42FE00039BEE /* Assets.xcassets */,
 				F3934F7A209E42FE00039BEE /* LaunchScreen.storyboard */,
@@ -137,6 +147,27 @@
 			path = AgentdesksUITests;
 			sourceTree = "<group>";
 		};
+		F397BD96209FB56D00B0DBAC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F32C10CF209FA3CB00F7AC0A /* Cells.swift */,
+				F32C10C9209F88DD00F7AC0A /* Numbers.swift */,
+				F397BD94209FB42300B0DBAC /* Dates.swift */,
+				F397BD9A209FC24600B0DBAC /* Array.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F397BD99209FC21500B0DBAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3934FAA209F7DA000039BEE /* ViewModel.swift */,
+				F3934F9F209E453D00039BEE /* Property.swift */,
+				F397BD97209FB9C400B0DBAC /* SortCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3934F99209E42FF00039BEE /* Build configuration list for PBXNativeTarget "AgentdesksTests" */;
 			buildPhases = (
+				10CE853406B6363D08EDE0D0 /* [CP] Check Pods Manifest.lock */,
 				F3934F7E209E42FF00039BEE /* Sources */,
 				F3934F7F209E42FF00039BEE /* Frameworks */,
 				F3934F80209E42FF00039BEE /* Resources */,
@@ -179,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3934F9C209E42FF00039BEE /* Build configuration list for PBXNativeTarget "AgentdesksUITests" */;
 			buildPhases = (
+				DB272878BC7523DB999967D0 /* [CP] Check Pods Manifest.lock */,
 				F3934F89209E42FF00039BEE /* Sources */,
 				F3934F8A209E42FF00039BEE /* Frameworks */,
 				F3934F8B209E42FF00039BEE /* Resources */,
@@ -243,7 +276,6 @@
 			files = (
 				F3934F7C209E42FE00039BEE /* LaunchScreen.storyboard in Resources */,
 				F3934F79209E42FE00039BEE /* Assets.xcassets in Resources */,
-				F3934FA5209E468700039BEE /* PropertyCell.xib in Resources */,
 				F3934F77209E42FD00039BEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,15 +296,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10CE853406B6363D08EDE0D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgentdesksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB272878BC7523DB999967D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgentdesksUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3934F6A209E42FD00039BEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3934FA7209E49A900039BEE /* PropertyCell.swift in Sources */,
+				F397BD98209FB9C400B0DBAC /* SortCategory.swift in Sources */,
+				F32C10D0209FA3CB00F7AC0A /* Cells.swift in Sources */,
+				F32C10CA209F88DD00F7AC0A /* Numbers.swift in Sources */,
+				F32C10CC209F9FA100F7AC0A /* PhotoCell.swift in Sources */,
 				F3934FA0209E453D00039BEE /* Property.swift in Sources */,
+				F397BD9B209FC24600B0DBAC /* Array.swift in Sources */,
 				F3934F74209E42FD00039BEE /* ViewController.swift in Sources */,
-				F3934FA9209E4CE900039BEE /* PropertyCollectionView.swift in Sources */,
+				F397BD95209FB42300B0DBAC /* Dates.swift in Sources */,
+				F3934FAB209F7DA000039BEE /* ViewModel.swift in Sources */,
 				F3934F72209E42FD00039BEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
